@@ -1,0 +1,24 @@
+{
+  "name": "element-inspector",
+  "version": "0.1.0",
+  "description": "Simple DOM element inspector",
+  "main": "lib/index.js",
+  "files": ["lib", "package.json", "README.md", "LICENSE"],
+  "scripts": {
+    "build": "babel src -d lib --ignore spec.js",
+    "lint": "eslint src",
+    "test": "exit 0"
+  },
+  "author": "Antony Budianto <antonybudianto@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.0",
+    "babel-jest": "^21.2.0",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-preset-env": "^1.6.0",
+    "eslint": "^4.8.0",
+    "eslint-plugin-jest": "^21.2.0",
+    "jest": "^21.2.1"
+  }
+}
