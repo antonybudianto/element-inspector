@@ -2,7 +2,17 @@
 
 ## How to use
 
-WIP
+```sh
+npm i element-inspector
+```
+
+```
+import { startPick } from 'element-inspector'
+
+startPick({
+  onClick: (el) => console.log(el)
+});
+```
 
 ## Development
 
@@ -39,4 +49,6 @@ MIT
 
 ## Credits
 
-https://github.com/jamesbechet/element-picker
+Thanks for @jamesbechet for his work in https://github.com/jamesbechet/element-picker.
+I modified it to suite my needs and some enhancements.
+His work is attributed in `LICENSE` file.
